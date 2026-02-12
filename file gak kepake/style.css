@@ -1,0 +1,40 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background: white;
+  color: black;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 60px;
+}
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+.hero {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.title {
+  font-size: 90px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.title span {
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+}
+.hero img {
+  margin-top: 40px;
+  width: 300px;
+}
